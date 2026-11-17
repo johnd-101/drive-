@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Question {
+  id          String   @id @default(cuid())
+  question    String   @db.Text
+  options     Json
+  correct     Int
+  category    String   @default("rules")
+  imageUrl    String?
+  signType    String?
+  controlType String?
+  explanation String?  @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  @@map("questions")
+}
+
+model TestResult {
+  id             String   @id @default(cuid())
+  studentName    String
+  studentEmail   String?
+  score          Int
+  total          Int
+  percentage     Int
+  passed         Boolean
+  category       String   // all | rules | signs | controls
+  categoryScores Json?    // { rules: 5, signs: 4, controls: 3 }
+  answers        Json?    // optional: save full review
+  createdAt      DateTime @default(now())
+}

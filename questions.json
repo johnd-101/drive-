@@ -1,0 +1,902 @@
+[
+  {
+    "question": "What does this sign mean? 🛑",
+    "options": [
+      "Slow down",
+      "Stop completely",
+      "Yield",
+      "No entry"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🛑",
+    "signType": "Stop",
+    "controlType": "",
+    "explanation": "R1 - Octagonal red, complete stop"
+  },
+  {
+    "question": "What does this sign mean? 🔻",
+    "options": [
+      "Stop",
+      "Give Way / Yield",
+      "No entry",
+      "One way"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🔻",
+    "signType": "Yield",
+    "controlType": "",
+    "explanation": "R2 - Inverted triangle"
+  },
+  {
+    "question": "What does this sign mean? ⛔",
+    "options": [
+      "Stop",
+      "No entry",
+      "No parking",
+      "One way"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "⛔",
+    "signType": "No Entry",
+    "controlType": "",
+    "explanation": "R3"
+  },
+  {
+    "question": "What does this sign indicate? 🚸",
+    "options": [
+      "School ahead",
+      "Pedestrian crossing / Yield to pedestrians",
+      "No pedestrians",
+      "Children playing"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🚸",
+    "signType": "Yield Pedestrians",
+    "controlType": "",
+    "explanation": "R2.1"
+  },
+  {
+    "question": "What does this sign mean? 🔄",
+    "options": [
+      "Roundabout ahead, yield at roundabout",
+      "Turn around",
+      "U-turn allowed",
+      "One way"
+    ],
+    "correct": 0,
+    "category": "signs",
+    "imageUrl": "🔄",
+    "signType": "Roundabout Yield",
+    "controlType": "",
+    "explanation": "R2.2 & R137"
+  },
+  {
+    "question": "You see a sign with 🅿️🚫 - what does it mean?",
+    "options": [
+      "Parking allowed",
+      "No parking",
+      "No stopping",
+      "Bus stop"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🅿️🚫",
+    "signType": "No Parking",
+    "controlType": "",
+    "explanation": "R214"
+  },
+  {
+    "question": "What does this regulatory sign mean? ⬅️",
+    "options": [
+      "Keep left",
+      "Turn left",
+      "One-way left",
+      "No left turn"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "⬅️",
+    "signType": "Command",
+    "controlType": "",
+    "explanation": "R105 - Turn left mandatory"
+  },
+  {
+    "question": "What does this sign mean? ➡️",
+    "options": [
+      "Turn right mandatory",
+      "One-way",
+      "Keep right",
+      "No right turn"
+    ],
+    "correct": 0,
+    "category": "signs",
+    "imageUrl": "➡️",
+    "signType": "Command",
+    "controlType": "",
+    "explanation": "R106"
+  },
+  {
+    "question": "What does ⬆️ mean?",
+    "options": [
+      "Proceed straight only",
+      "One-way up",
+      "No entry",
+      "Go faster"
+    ],
+    "correct": 0,
+    "category": "signs",
+    "imageUrl": "⬆️",
+    "signType": "Command",
+    "controlType": "",
+    "explanation": "R107"
+  },
+  {
+    "question": "What does ↖️ mean?",
+    "options": [
+      "Keep left",
+      "Turn left ahead",
+      "One-way",
+      "No entry"
+    ],
+    "correct": 0,
+    "category": "signs",
+    "imageUrl": "↖️",
+    "signType": "Keep Left",
+    "controlType": "",
+    "explanation": "R103"
+  },
+  {
+    "question": "A blue circle with a bicycle 🚴 means?",
+    "options": [
+      "No bicycles",
+      "Cyclists only",
+      "Bicycle crossing",
+      "Cycle lane ends"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🚴",
+    "signType": "Cyclists Only",
+    "controlType": "",
+    "explanation": "R111"
+  },
+  {
+    "question": "A blue circle with a person 🚶 means?",
+    "options": [
+      "No pedestrians",
+      "Pedestrians only",
+      "Pedestrian crossing",
+      "School zone"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🚶",
+    "signType": "Pedestrians Only",
+    "controlType": "",
+    "explanation": "R110"
+  },
+  {
+    "question": "A sign showing 🚗 in blue circle means?",
+    "options": [
+      "No cars",
+      "Motorcars only",
+      "No entry for cars",
+      "Parking for cars"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🚗",
+    "signType": "Motorcars Only",
+    "controlType": "",
+    "explanation": "R117"
+  },
+  {
+    "question": "A sign showing 🚌 in blue circle means?",
+    "options": [
+      "Bus stop",
+      "Buses only",
+      "No buses",
+      "Bus lane ends"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🚌",
+    "signType": "Buses Only",
+    "controlType": "",
+    "explanation": "R121"
+  },
+  {
+    "question": "A sign showing 🚕 in blue circle?",
+    "options": [
+      "No taxis",
+      "Taxis only",
+      "Taxi rank",
+      "No stopping"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🚕",
+    "signType": "Taxis Only",
+    "controlType": "",
+    "explanation": "R118"
+  },
+  {
+    "question": "What does 💡 mean on a blue sign?",
+    "options": [
+      "Switch headlamps on",
+      "Lights ahead",
+      "No lights",
+      "High beams only"
+    ],
+    "correct": 0,
+    "category": "signs",
+    "imageUrl": "💡",
+    "signType": "Switch Headlamps On",
+    "controlType": "",
+    "explanation": "R133"
+  },
+  {
+    "question": "A red circle with 60 inside 6️⃣0️⃣ means?",
+    "options": [
+      "Minimum 60",
+      "Maximum speed 60 km/h",
+      "Recommended 60",
+      "End of 60 zone"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "6️⃣0️⃣",
+    "signType": "Speed Limit",
+    "controlType": "",
+    "explanation": "R201 - Max 60"
+  },
+  {
+    "question": "A red circle with 80 inside 8️⃣0️⃣?",
+    "options": [
+      "Max 80 km/h",
+      "Min 80",
+      "End limit",
+      "80 ahead"
+    ],
+    "correct": 0,
+    "category": "signs",
+    "imageUrl": "8️⃣0️⃣",
+    "signType": "Speed Limit",
+    "controlType": "",
+    "explanation": "R201"
+  },
+  {
+    "question": "A red circle with 120 inside?",
+    "options": [
+      "Max 120 km/h national highway",
+      "Min 120",
+      "No 120",
+      "End"
+    ],
+    "correct": 0,
+    "category": "signs",
+    "imageUrl": "1️⃣2️⃣0️⃣",
+    "signType": "Speed Limit",
+    "controlType": "",
+    "explanation": "R201"
+  },
+  {
+    "question": "A sign with 🚫↔️ means?",
+    "options": [
+      "One way",
+      "No overtaking",
+      "No entry",
+      "Road closed"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🚫↔️",
+    "signType": "No Overtaking",
+    "controlType": "",
+    "explanation": "R214"
+  },
+  {
+    "question": "A sign with ↩️🚫 means?",
+    "options": [
+      "No left turn",
+      "No U-turn",
+      "No right turn",
+      "No parking"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "↩️🚫",
+    "signType": "No U-Turn",
+    "controlType": "",
+    "explanation": "R202"
+  },
+  {
+    "question": "A sign with 🔇 means?",
+    "options": [
+      "No music",
+      "No hooting / No horn",
+      "Quiet zone",
+      "No entry"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🔇",
+    "signType": "No Hooting",
+    "controlType": "",
+    "explanation": "R207"
+  },
+  {
+    "question": "What does 💰🛣️ indicate?",
+    "options": [
+      "Free road",
+      "Toll road ahead",
+      "No toll",
+      "Toll gate closed"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "💰🛣️",
+    "signType": "Toll Road",
+    "controlType": "",
+    "explanation": "R132"
+  },
+  {
+    "question": "Yellow background sign indicates?",
+    "options": [
+      "Permanent",
+      "Temporary road works",
+      "Tourist info",
+      "Speed limit"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "⚠️",
+    "signType": "Temporary",
+    "controlType": "",
+    "explanation": "Yellow = temporary"
+  },
+  {
+    "question": "Warning sign shape in SA is?",
+    "options": [
+      "Circle",
+      "Inverted triangle",
+      "Upward-pointing red triangle",
+      "Square"
+    ],
+    "correct": 2,
+    "category": "signs",
+    "imageUrl": "⚠️",
+    "signType": "Warning",
+    "controlType": "",
+    "explanation": "SADC standard"
+  },
+  {
+    "question": "A triangle with ➕ means?",
+    "options": [
+      "Hospital ahead",
+      "Crossroad ahead",
+      "T-junction",
+      "Dead end"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "➕",
+    "signType": "Crossroad",
+    "controlType": "",
+    "explanation": "W101"
+  },
+  {
+    "question": "A triangle with T means?",
+    "options": [
+      "Crossroad",
+      "T-junction ahead",
+      "Turn left",
+      "No entry"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "T",
+    "signType": "T-Junction",
+    "controlType": "",
+    "explanation": "W103"
+  },
+  {
+    "question": "A triangle with ↩️ means sharp bend left - action?",
+    "options": [
+      "Speed up",
+      "Slow down and be prepared to turn",
+      "No left turn",
+      "One way"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "↩️",
+    "signType": "Sharp Bend",
+    "controlType": "",
+    "explanation": "W104"
+  },
+  {
+    "question": "What does 🚦 ahead sign warn?",
+    "options": [
+      "Stop sign ahead",
+      "Traffic signal / robot ahead",
+      "School ahead",
+      "Pedestrians"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🚦",
+    "signType": "Traffic Signal Ahead",
+    "controlType": "",
+    "explanation": "W301"
+  },
+  {
+    "question": "A triangle with 🧒 means?",
+    "options": [
+      "Playground",
+      "Children / School ahead",
+      "No children",
+      "Pedestrian crossing"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🧒",
+    "signType": "School",
+    "controlType": "",
+    "explanation": "W307"
+  },
+  {
+    "question": "A triangle with 🐄 means?",
+    "options": [
+      "Farm",
+      "Animals / Cattle ahead",
+      "No animals",
+      "Zoo"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🐄",
+    "signType": "Animals",
+    "controlType": "",
+    "explanation": "W312"
+  },
+  {
+    "question": "A triangle with 💧🛣️ means?",
+    "options": [
+      "River ahead",
+      "Slippery road ahead",
+      "Flood",
+      "Wash road"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "💧🛣️",
+    "signType": "Slippery Road",
+    "controlType": "",
+    "explanation": "W204"
+  },
+  {
+    "question": "A triangle with 〰️ means?",
+    "options": [
+      "Winding road",
+      "Uneven road / Speed hump",
+      "Road narrows",
+      "No overtaking"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "〰️",
+    "signType": "Uneven Road",
+    "controlType": "",
+    "explanation": "W207"
+  },
+  {
+    "question": "A sign with ✈️⬇️ means?",
+    "options": [
+      "Airport",
+      "Low flying aircraft",
+      "No aircraft",
+      "Helipad"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "✈️⬇️",
+    "signType": "Low Aircraft",
+    "controlType": "",
+    "explanation": "W310"
+  },
+  {
+    "question": "A blue sign with 🏥 means?",
+    "options": [
+      "No hospital",
+      "Hospital / Guidance",
+      "First aid only",
+      "Pharmacy"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🏥",
+    "signType": "Guidance",
+    "controlType": "",
+    "explanation": "Hospital nearby"
+  },
+  {
+    "question": "A blue sign with ⛽ means?",
+    "options": [
+      "No fuel",
+      "Fuel station ahead",
+      "Oil spill",
+      "No stopping"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "⛽",
+    "signType": "Guidance",
+    "controlType": "",
+    "explanation": "Fuel"
+  },
+  {
+    "question": "A sign with 🅿️ means?",
+    "options": [
+      "No parking",
+      "Parking area",
+      "Police station",
+      "Picnic area"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "🅿️",
+    "signType": "Guidance",
+    "controlType": "",
+    "explanation": "Parking"
+  },
+  {
+    "question": "Dead end sign shows?",
+    "options": [
+      "🚫➡️ No through road",
+      "One way",
+      "Turn around",
+      "Road closed"
+    ],
+    "correct": 0,
+    "category": "signs",
+    "imageUrl": "🚫➡️",
+    "signType": "Dead End",
+    "controlType": "",
+    "explanation": "No through road"
+  },
+  {
+    "question": "White background on SA signs means?",
+    "options": [
+      "Temporary",
+      "Permanent",
+      "Tourist",
+      "Danger"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "⬜",
+    "signType": "Permanent",
+    "controlType": "",
+    "explanation": "White = permanent"
+  },
+  {
+    "question": "SA drives on which side?",
+    "options": [
+      "Right",
+      "Left",
+      "Either",
+      "Center"
+    ],
+    "correct": 1,
+    "category": "signs",
+    "imageUrl": "⬅️",
+    "signType": "General",
+    "controlType": "",
+    "explanation": "Left-hand driving"
+  },
+  {
+    "question": "When approaching pedestrian crossing with people waiting?",
+    "options": [
+      "Speed up",
+      "Slow down and be prepared to stop",
+      "Honk",
+      "Change lanes"
+    ],
+    "correct": 1,
+    "category": "rules",
+    "imageUrl": "🚸",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "Legal blood alcohol for learner driver in SA?",
+    "options": [
+      "0.05%",
+      "0.08%",
+      "0.00% zero tolerance",
+      "0.02%"
+    ],
+    "correct": 2,
+    "category": "rules",
+    "imageUrl": "🍺🚫",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "Safest following distance?",
+    "options": [
+      "1 sec",
+      "2 sec",
+      "3 sec",
+      "Half car"
+    ],
+    "correct": 2,
+    "category": "rules",
+    "imageUrl": "↔️",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "Who has right of way at roundabout in SA?",
+    "options": [
+      "Entering",
+      "Already in roundabout",
+      "Biggest vehicle",
+      "From right"
+    ],
+    "correct": 1,
+    "category": "rules",
+    "imageUrl": "🔄",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "When may you overtake on right in SA?",
+    "options": [
+      "Always",
+      "Never unless vehicle ahead turning right or on one-way",
+      "When slow",
+      "Multi-lane only"
+    ],
+    "correct": 1,
+    "category": "rules",
+    "imageUrl": "➡️",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "What does solid yellow line on your side mean?",
+    "options": [
+      "You may overtake",
+      "No overtaking",
+      "No parking",
+      "Edge"
+    ],
+    "correct": 1,
+    "category": "rules",
+    "imageUrl": "🟨",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "Safest way to use phone while driving?",
+    "options": [
+      "Hold it",
+      "Hands-free if necessary but best pull over safely",
+      "Text at red light",
+      "Pull over safely"
+    ],
+    "correct": 3,
+    "category": "rules",
+    "imageUrl": "📱🚫",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "When must headlights be on?",
+    "options": [
+      "Only at night",
+      "Sunset to sunrise and poor visibility",
+      "Only rain",
+      "Highway only"
+    ],
+    "correct": 1,
+    "category": "rules",
+    "imageUrl": "💡",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "What does yellow traffic light mean?",
+    "options": [
+      "Speed up",
+      "Stop if safe to do so",
+      "Proceed",
+      "Yield"
+    ],
+    "correct": 1,
+    "category": "rules",
+    "imageUrl": "🟡",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "How often check mirrors?",
+    "options": [
+      "Only lane change",
+      "Every 5-8 seconds",
+      "Once a minute",
+      "Only reversing"
+    ],
+    "correct": 1,
+    "category": "rules",
+    "imageUrl": "🪞",
+    "signType": "",
+    "controlType": "",
+    "explanation": ""
+  },
+  {
+    "question": "What does clutch do?",
+    "options": [
+      "Stops car",
+      "Disconnects engine from wheels to change gears",
+      "Steers",
+      "Powers lights"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "🦶⚙️",
+    "signType": "",
+    "controlType": "Clutch",
+    "explanation": "Allows smooth gear changes"
+  },
+  {
+    "question": "When use handbrake?",
+    "options": [
+      "Only parked",
+      "Parked and hill starts",
+      "Fast driving",
+      "Never"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "🅿️✋",
+    "signType": "",
+    "controlType": "Handbrake",
+    "explanation": "Secures vehicle"
+  },
+  {
+    "question": "How to check mirrors correctly?",
+    "options": [
+      "Only before braking",
+      "Every 5-8 sec and before maneuvers",
+      "Once per minute",
+      "Only reversing"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "🪞",
+    "signType": "",
+    "controlType": "Mirrors",
+    "explanation": "Interior then exterior"
+  },
+  {
+    "question": "What does brake pedal do?",
+    "options": [
+      "Accelerates",
+      "Slows/stops vehicle",
+      "Changes gears",
+      "Steers"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "🛑🦶",
+    "signType": "",
+    "controlType": "Braking",
+    "explanation": "Press gently"
+  },
+  {
+    "question": "Steering in SA - hands position?",
+    "options": [
+      "12 o'clock",
+      "9 and 3 or 10 and 2",
+      "6 o'clock",
+      "One hand"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "🎮",
+    "signType": "",
+    "controlType": "Steering",
+    "explanation": "9 and 3 gives control"
+  },
+  {
+    "question": "What does accelerator do?",
+    "options": [
+      "Stops",
+      "Controls speed",
+      "Changes gears",
+      "Lights"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "⛽🦶",
+    "signType": "",
+    "controlType": "Accelerator",
+    "explanation": "Right foot only"
+  },
+  {
+    "question": "Gear lever purpose?",
+    "options": [
+      "Steering",
+      "Select appropriate gear for speed",
+      "Braking",
+      "Lights"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "⚙️",
+    "signType": "",
+    "controlType": "Gears",
+    "explanation": "Match gear to speed"
+  },
+  {
+    "question": "What does temperature gauge warn?",
+    "options": [
+      "Fuel low",
+      "Engine overheating",
+      "Speed high",
+      "Oil low"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "🌡️",
+    "signType": "",
+    "controlType": "Dashboard",
+    "explanation": "Stop if overheating"
+  },
+  {
+    "question": "Wipers control?",
+    "options": [
+      "Steering",
+      "Clear windscreen for visibility",
+      "Brakes",
+      "Lights"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "🌧️",
+    "signType": "",
+    "controlType": "Wipers",
+    "explanation": "Maintain visibility"
+  },
+  {
+    "question": "Seatbelt rule in SA?",
+    "options": [
+      "Only front",
+      "All occupants must wear",
+      "Only driver",
+      "Only highway"
+    ],
+    "correct": 1,
+    "category": "controls",
+    "imageUrl": "🪢",
+    "signType": "",
+    "controlType": "Safety",
+    "explanation": "K53 - buckle before moving"
+  }
+]
